@@ -1,5 +1,7 @@
 * {
     box-sizing: content-box;
+   
+
 }
 
 /* color palette*/
@@ -8,6 +10,56 @@
     --secondary: rgba(146, 204, 206, 1);
     --tertiary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
-    --light: rgba(238, 238, 247, 1);
+    --light: rgba(238, 238, 247, 1); 
 }
+
+.mainHeader{
+    display:flex;
+    padding: 1%;
+color: var(--light);
+background-color: var(--primary);
+
+
+}
+
+.cardHeader {
+padding-bottom: 3%;
+color: var(--primary);
+
+}
+
+#first-li{
+display: inline;
+z-index: 1;
+position: relative;
+left: 80%;
+color: var(--light);
+background-color: var(--primary);
+font-size: 20px;
+top: -83px;
+}
+
+#second-li{
+display: inline;
+z-index: 1;
+position: relative;
+left: 85%;
+font-size: 20px;
+top: -83px;
+background-color: var(--primary);
+color: var(--light);
+}
+
+#third-li{
+display: inline;
+ z-index: 1;
+font-size: 20px;
+position: relative;
+left:90%;
+color: var(--light);
+top: -83px;
+background-color:var(--primary);
+
+}
+
 
