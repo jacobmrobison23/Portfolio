@@ -3,11 +3,14 @@
     --primary: #2c3e50;
     --secondary: #2a7ccf;
     --light: #ecf0f1;
-    --dark: #95a5a6;
+    --dark: #000000;
+    --background: #585858;
 }
 body {
-    background-color: #ecf0f1;
-    color: rgb(0, 0, 0);
+    background-color: var(--background);
+    color: var(--light);
+    font-weight: 500;
+    
 }
 
 .mainHeader {
@@ -60,6 +63,27 @@ body {
 }
 
 
+#refractorImg {
+padding: 5px;
+background-color: var(--primary);
+
+}
+
+
+#blogImg {
+padding: 5px;
+background-color: var(--primary);
+
+
+}
+
+#readmeImg {
+padding: 5px;
+background-color: var(--primary);
+
+
+}
+
 @media screen and (max-width: 768px) {
     .mainHeader {
         flex-direction: column;
@@ -73,5 +97,6 @@ body {
         font-size: 16px;
     }
 }
+
 
 
