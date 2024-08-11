@@ -4,7 +4,7 @@
     --secondary: #2a7ccf;
     --light: #ecf0f1;
     --dark: #000000;
-    --background: #585858;
+    --background: #747474;
 }
 body {
     background-color: var(--background);
